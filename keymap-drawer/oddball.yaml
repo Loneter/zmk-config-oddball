@@ -36,10 +36,10 @@ layers:
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - LEFT WIN
+  - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: Raise}
-  - {t: Lower, h: toggle}
+  - {t: LEFT WIN, h: Raise}
+  - {t: '$$mdi:apple-keyboard-option$$', h: Lower}
   Raise:
   - F1
   - F2
@@ -121,7 +121,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Shortcut:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
