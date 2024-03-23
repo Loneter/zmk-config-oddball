@@ -138,10 +138,10 @@
         Raise {
             label = "Raise";
             bindings = <
-&trans  &kp EXCL      &kp AT                  &kp HASH  &kp DLLR  &kp PRCNT         &kp CARET  &kp AMPS         &kp ASTERISK  &kp LPAR                        &kp RPAR                   &trans
-&trans  &kp ESCAPE    &kp CAPSLOCK            &kp HOME  &kp END   &kp UNDERSCORE    &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP   &kp PAGE_DOWN                   &as PIPE NON_US_BACKSLASH  &trans
-&trans  &out OUT_TOG  &dongle_bootload_macro  &trans    &trans    &kp TILDE         &kp GRAVE  &as PLUS EQUAL   &kp SQT       &as DOUBLE_QUOTES SINGLE_QUOTE  &kp DELETE                 &trans
-                                              &trans    &trans    &trans                                        &trans
+&trans  &kp EXCL      &kp AT                  &kp HASH  &kp DLLR  &kp PRCNT         &kp F1     &kp F2          &kp F3   &kp F4                          &kp F5      &kp F6
+&trans  &kp ESCAPE    &kp CAPSLOCK            &kp HOME  &kp END   &kp UNDERSCORE    &kp F7     &kp F8          &kp F9   &kp F10                         &kp F11     &kp F12
+&trans  &out OUT_TOG  &dongle_bootload_macro  &trans    &trans    &kp TILDE         &kp GRAVE  &as PLUS EQUAL  &kp SQT  &as DOUBLE_QUOTES SINGLE_QUOTE  &kp DELETE  &trans
+                                              &trans    &trans    &trans                                       &trans
             >;
         };
 
