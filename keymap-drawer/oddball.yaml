@@ -41,27 +41,27 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: Raise}
   - {t: Lower, h: toggle}
   Raise:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
   - F1
   - F2
   - F3
   - F4
   - F5
   - F6
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-caps$$
-  - HOME
-  - END
-  - _
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - F4
+  - F5
+  - F6
   - F7
   - F8
   - F9
+  - F10
+  - F11
+  - F12
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - F10
   - F11
   - F12
@@ -71,16 +71,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - {t: '`', s: '~'}
-  - {t: '=', h: +, s: +}
-  - {t: '''', s: '"'}
+  - '1'
+  - '2'
+  - '3'
   - {t: '''', h: '"', s: '"'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
   Lower:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
