@@ -38,7 +38,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - LEFT WIN
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: Game}
+  - {t: '$$mdi:apple-keyboard-option$$', h: Raise}
   - {t: Lower, h: toggle}
   Raise:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -79,7 +79,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Lower:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -202,7 +202,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Base, h: toggle}
   Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
